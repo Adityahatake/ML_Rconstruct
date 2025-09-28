@@ -132,6 +132,7 @@ print(df.sort_values('Age'))
 group_data = {
     'Team': ['A', 'A', 'B', 'B'],
     'Points': [10, 15, 20, 25]
+    
 }
 group_df = pd.DataFrame(group_data)
 print("\nGroup DataFrame:")
