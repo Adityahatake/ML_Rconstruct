@@ -148,6 +148,7 @@ print(grouped)
 # 8.1 Apply a function to a column
 df['Age_plus_10'] = df['Age'].apply(lambda x: x + 10)
 print("\nDataFrame with Age plus 10:")
+
 print(df)
 
 # 9. Saving Data
