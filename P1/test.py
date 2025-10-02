@@ -1,2 +1,3 @@
-a=22
-print(a)
+import pandas as pd
+
+print("alock")
