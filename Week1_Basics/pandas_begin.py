@@ -15,6 +15,7 @@ import pandas as pd
 
 # 1. Creating Data Structures
 
+
 # 1.1 Series: One-dimensional labeled array
 
 data = [10, 20, 30, 40]
