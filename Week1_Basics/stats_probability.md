@@ -5,6 +5,7 @@
 - Variance = Average of squared differences from Mean
 - Std Deviation = Square root of Variance
 
+
 ## Probability
 - P(A) = (# of favorable outcomes) / (Total outcomes)
 - Independent events: P(A ∩ B) = P(A) * P(B)
