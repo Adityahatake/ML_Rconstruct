@@ -23,6 +23,7 @@ print("Series:")
 print(series)
 
 # You can specify custom labels (index)
+
 labels = ['a', 'b', 'c', 'd']
 series_with_labels = pd.Series(data, index=labels)
 print("\nSeries with custom labels:")
