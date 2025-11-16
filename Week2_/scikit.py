@@ -14,6 +14,8 @@ from sklearn.externals import joblib
 # Comprehensive scikit-learn example
 import matplotlib.pyplot as plt
 
+
+
 # 1. Loading and preparing data
 print("1. Data Loading and Preparation")
 iris = load_iris()
