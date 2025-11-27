@@ -20,7 +20,9 @@ import pandas as pd
 # 1.1 Series: One-dimensional labeled array
 
 data = [10, 20, 30, 40]
+
 series = pd.Series(data)
+
 print("Series:")
 print(series)
 
