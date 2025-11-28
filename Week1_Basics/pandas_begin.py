@@ -7,10 +7,10 @@ import pandas as pd
 # pandas is a powerful Python library for data analysis and manipulation.
 # It provides easy-to-use data structures and functions for working with structured data.
 
+
 # How to install pandas:
 # Run the following command in your terminal or command prompt:
 # pip install pandas
-
 # Importing pandas
 
 
