@@ -1,3 +1,5 @@
 import pandas as pd
 
-print("alock")
+df=pd.DataFrame("list")
+# df
+print(df)
