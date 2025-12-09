@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 # pandas_begin.py
 # Introduction to pandas for beginners
 
