@@ -15,7 +15,6 @@ from sklearn.externals import joblib
 import matplotlib.pyplot as plt
 
 
-
 # 1. Loading and preparing data
 print("1. Data Loading and Preparation")
 iris = load_iris()
