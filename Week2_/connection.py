@@ -13,6 +13,7 @@ print("Connected to MySQL!")
 # Create a cursor
 cursor = conn.cursor()
 
+
 # Example query
 cursor.execute("SELECT * FROM your_table")
 
