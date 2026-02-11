@@ -37,5 +37,6 @@ def ingest_data():
 
     print("Ingestion complete!")
 
+
 if __name__ == "__main__":
     ingest_data()
