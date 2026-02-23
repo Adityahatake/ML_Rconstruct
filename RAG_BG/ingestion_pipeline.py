@@ -28,6 +28,7 @@ def ingest_data():
     # 3. Create embeddings
     embeddings = OpenAIEmbeddings()
 
+
     # 4. Store in Chroma
     vectorstore = Chroma.from_documents(
         documents=split_docs,
