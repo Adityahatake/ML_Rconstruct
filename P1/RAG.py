@@ -11,7 +11,6 @@ Basic Usage of RAG in Python (using Hugging Face Transformers):
 
 2. Example code:
 """
-
 # Load pre-trained RAG model and tokenizer
 tokenizer = RagTokenizer.from_pretrained("facebook/rag-sequence-nq")
 retriever = RagRetriever.from_pretrained(
