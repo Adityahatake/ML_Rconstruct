@@ -1,0 +1,2 @@
+
+print("Standard Deviation:", std)

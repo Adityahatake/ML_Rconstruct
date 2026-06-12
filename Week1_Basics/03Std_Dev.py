@@ -12,6 +12,15 @@ data = [10, 12, 11, 13, 10, 12, 95, 11]  # 95 is outlier
 mean = np.mean(data)
 std  = np.std(data)
 
+print("Mean:", mean)
+print("Standard Deviation:", std)
+
 for val in data:
-    if abs(val - mean) > 3 * std:
+    if abs(val - mean) > 3*std:
         print(f"{val} is an OUTLIER")
+
+# Fix 
+print("\n--- 2-Sigma Outlier Detection ---")
+for val in data:
+    if abs(val - mean) > 2 * std:
+        print(f"{val} is an OUTLIER (2-sigma)")
