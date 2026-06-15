@@ -7,5 +7,6 @@ data = {
     'Rating': ['Good', 'Average', 'Excellent'],  # Ordinal
     'City': ['Delhi', 'Mumbai', 'Delhi']         # Nominal
 }
+
 df = pd.DataFrame(data)
 print(df.dtypes)   # see how pandas reads each column

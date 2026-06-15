@@ -11,9 +11,11 @@ import numpy as np
 # - Fast mathematical operations
 # - Useful for data science, machine learning, scientific computing, and more
 
-# Let's get started!
+# Let's get started!-------------------
 
 # 1. Importing NumPy
+
+# import numpy as np  //already imported in line 1
 
 # 2. Creating Arrays
 
