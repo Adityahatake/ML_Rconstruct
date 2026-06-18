@@ -6,6 +6,7 @@ import numpy as np
 # NumPy (Numerical Python) is a powerful library for numerical computing in Python.
 # It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on them.
 
+
 # Why use NumPy?
 # - Efficient storage and manipulation of numerical data
 # - Fast mathematical operations
