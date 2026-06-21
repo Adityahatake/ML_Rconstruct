@@ -15,6 +15,7 @@ import pandas as pd
 # Importing pandas
 
 
+
 # 1. Creating Data Structures
 
 
@@ -25,6 +26,7 @@ data = [10, 20, 30, 40]
 series = pd.Series(data)
 
 print("Series:")
+
 print(series)
 
 # You can specify custom labels (index)
