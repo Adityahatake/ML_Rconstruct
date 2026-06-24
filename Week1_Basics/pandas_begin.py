@@ -5,6 +5,7 @@ import pandas as pd
 # Introduction to pandas for beginners
 
 # What is pandas?
+
 # pandas is a powerful Python library for data analysis and manipulation.
 # It provides easy-to-use data structures and functions for working with structured data.
 
