@@ -7,6 +7,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 
 def ingest_data():
+    
 
     # Load environment variables
     load_dotenv()
