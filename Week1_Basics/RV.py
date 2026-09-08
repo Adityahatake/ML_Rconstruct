@@ -18,6 +18,7 @@ plt.bar(outcomes.keys(), outcomes.values(), color='steelblue', edgecolor='black'
 plt.title("PMF — Discrete (Coin Flips)")
 plt.xlabel("Number of Heads")
 plt.ylabel("Probability")
+
 plt.xticks([0, 1, 2])
 
 # Continuous Random Variable — heights
