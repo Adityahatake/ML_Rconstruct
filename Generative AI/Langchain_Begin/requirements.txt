@@ -1,0 +1,12 @@
+# LangChain
+langchain
+langchain-core
+
+# LLM integrations
+langchain-google-genai
+langchain-groq
+langchain-openai
+langchain-mistralai
+
+# Environment variables
+python-dotenv
