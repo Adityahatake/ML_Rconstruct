@@ -1,0 +1,23 @@
+# Virtual environment
+GenAI/
+
+# Environment variables / API keys
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Build / distribution files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
