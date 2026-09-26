@@ -1,16 +1,12 @@
-import os
 from dotenv import load_dotenv
-from google import genai
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 load_dotenv()
 
-client = genai.Client(
-    api_key=os.getenv("GOOGLE_API_KEY")
+model = ChatGoogleGenerativeAI(
+    model="gemini-3.8-flash"
 )
 
-response = client.models.generate_content(
-    model="gemini-3.8-flash",
-    contents="Say hello in one sentence."
-)
+response = model.invoke("Explain LangChain in one sentence.")
 
-print(response.text)
+print(response.content[0]["text"])

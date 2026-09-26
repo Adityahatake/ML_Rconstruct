@@ -1,10 +1,10 @@
-from langchain_groq import ChatGroq
 from dotenv import load_dotenv
+from langchain_mistralai import ChatMistralAI
 
 load_dotenv()
 
-model = ChatGroq(
-    model="llama-3.1-8b-instant"
+model = ChatMistralAI(
+    model="mistral-small-latest"
 )
 
 response = model.invoke("Say hello")
