@@ -7,6 +7,6 @@ model = ChatGoogleGenerativeAI(
     model="gemini-3.8-flash"
 )
 
-response = model.invoke("Explain LangChain in one sentence.")
+response = model.invoke("tell me a simple joke.")
 
 print(response.content[0]["text"])

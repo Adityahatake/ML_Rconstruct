@@ -5,7 +5,7 @@ GenAI/
 .env
 
 # Python cache
-__pycache__/
+__pycache__/  
 *.py[cod]
 
 # Jupyter Notebook checkpoints
