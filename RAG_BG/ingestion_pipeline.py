@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 from langchain_community.document_loaders import DirectoryLoader
 from langchain_text_splitters import CharacterTextSplitter
-from langchain_openai import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings 
 from langchain_chroma import Chroma
 
 def ingest_data():
-    
+
 
     # Load environment variables
     load_dotenv()
@@ -18,6 +18,7 @@ def ingest_data():
         glob="**/*.txt"
     )
     documents = loader.load()
+    
 
     # 2. Split documents
     text_splitter = CharacterTextSplitter(

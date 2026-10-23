@@ -33,7 +33,7 @@ MOODS = {
 # ---------- Model ----------
 @st.cache_resource
 def get_model():
-    return ChatGroq(model="openai/gpt-oss-20b", temperature=1)
+    return ChatGroq(model="openai/gpt-oss-120b", temperature=0.5)
 
 
 # ---------- State ----------
