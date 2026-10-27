@@ -25,6 +25,7 @@ def cosine(a, b):
 
 
 print("\nSimilarity scores:")
+
 print("Line 1 vs Line 2 (similar meaning):  ", round(cosine(vectors[0], vectors[1]), 3))
 print("Line 1 vs Line 3 (different meaning):", round(cosine(vectors[0], vectors[2]), 3))
 
