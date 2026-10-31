@@ -38,6 +38,8 @@ def ingest_data():
         persist_directory="chroma_db"
     )
 
+    
+
     print("Ingestion complete!")
 
 if __name__ == "__main__":
