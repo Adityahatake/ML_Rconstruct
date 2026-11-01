@@ -11,6 +11,8 @@ def prepare_training_data():
     labels = [0, 1, 2]  # Example labels
     return texts, labels
 
+
+
 def train_language_model():
     # Initialize tokenizer and model
     tokenizer = AutoTokenizer.from_pretrained("gpt2-small")
