@@ -4,6 +4,7 @@ import numpy as np
 # Data from the table
 stages = ['Normal', 'Stage 1', 'Stage 2', 'Stage 3', 'Stage 4']
 
+
 metrics = {
     "Precision (PPV)": {
         "Testing": [0.43, 0.22, 0.40, 0.92, 0.80],
