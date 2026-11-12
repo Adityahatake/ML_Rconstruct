@@ -58,6 +58,8 @@ mood_name = st.radio(
 )
 mood = MOODS[mood_name]
 
+
+
 # ---------- Styling (accent follows the mood) ----------
 st.markdown(
     f"""
