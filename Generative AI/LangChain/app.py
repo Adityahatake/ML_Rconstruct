@@ -56,9 +56,12 @@ mood_name = st.radio(
     key="mood_choice",
     on_change=reset_chat,
 )
+
+
 mood = MOODS[mood_name]
 
 
+    ``
 
 # ---------- Styling (accent follows the mood) ----------
 st.markdown(
