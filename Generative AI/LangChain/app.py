@@ -47,6 +47,7 @@ def reset_chat():
 
 
 # ---------- Mood picker ----------
+
 mood_name = st.radio(
     # static [push on github
     "Choose the AI's mood",
