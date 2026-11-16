@@ -15,6 +15,7 @@ MOODS = {
         "prompt": "You are a funny AI agent",
         "tagline": "Expect jokes, puns and playful replies.",
     },
+    
     "Sad": {
         "emoji": "😢",
         "accent": "#4F86C6",
