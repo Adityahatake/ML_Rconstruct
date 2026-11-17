@@ -12,8 +12,6 @@ model=ChatGroq(model="openai/gpt-oss-20b", temperature=1)
 
 print("--------- Welcome to the Chat, type 0 to exit ---------")
 
-
-
 messages = [
     SystemMessage(content="You are a funny AI agent")
     # Stores previous messages to maintain conversation context.
