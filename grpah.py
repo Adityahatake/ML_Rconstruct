@@ -29,8 +29,6 @@ metrics = {
     }
 }
 
-
-
 # Plot setup
 plt.figure(figsize=(12, 8))
 x = np.arange(len(stages))
