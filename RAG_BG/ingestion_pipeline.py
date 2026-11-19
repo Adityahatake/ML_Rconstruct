@@ -30,15 +30,12 @@ def ingest_data():
     # 3. Create embeddings
     embeddings = OpenAIEmbeddings()
 
-
     # 4. Store in Chroma
     vectorstore = Chroma.from_documents(
         documents=split_docs,
         embedding=embeddings,
         persist_directory="chroma_db"
     )
-
-    
 
     print("Ingestion complete!")
 
