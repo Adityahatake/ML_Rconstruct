@@ -6,8 +6,6 @@ load_dotenv()
     
 model=ChatGroq(model="openai/gpt-oss-20b", temperature=1)
 
-
-
 # response = model.invoke("Tell me a joke about AI overtaking humans")
 
 print("--------- Welcome to the Chat, type 0 to exit ---------")

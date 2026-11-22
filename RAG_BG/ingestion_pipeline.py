@@ -18,7 +18,6 @@ def ingest_data():
         glob="**/*.txt"
     )
     documents = loader.load()
-    
 
     # 2. Split documents
     text_splitter = CharacterTextSplitter(
@@ -26,6 +25,8 @@ def ingest_data():
         chunk_overlap=200
     )
     split_docs = text_splitter.split_documents(documents)
+
+
 
     # 3. Create embeddings
     embeddings = OpenAIEmbeddings()

@@ -7,6 +7,8 @@ model = ChatMistralAI(
     model="mistral-small-latest"
 )
 
+
+
 response = model.invoke("Say hello")
 
 print(response.content)
