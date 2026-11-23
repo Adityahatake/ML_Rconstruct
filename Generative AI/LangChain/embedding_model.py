@@ -10,19 +10,14 @@ texts = [
     "Soccer is my favourite sport to play on Sundays.",
     "The stock market fell sharply today.",
 ]
-
 # Embed the 3 lines
 vectors = np.array(embeddings.embed_documents(texts))
 print("Number of vectors:", vectors.shape[0])
 print("Dimensions per vector:", vectors.shape[1])
 print("First 5 values of line 1:", vectors[0][:5])
-
-
 # Cosine similarity: closer to 1 = more similar meaning
 def cosine(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-    
-
 
 print("\nSimilarity scores:")
 

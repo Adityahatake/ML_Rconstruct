@@ -24,6 +24,7 @@ while True: #so it does not stop after a single response
     if prompt=="0":
         break
 
+
     response=model.invoke(messages)
     messages.append(AIMessage(content=response.content))
 

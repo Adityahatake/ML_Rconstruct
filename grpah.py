@@ -33,9 +33,6 @@ metrics = {
 plt.figure(figsize=(12, 8))
 x = np.arange(len(stages))
 width = 0.35
-
-
-
 # Plot each metric separately
 for i, (metric, values) in enumerate(metrics.items(), 1):
     plt.subplot(3, 2, i)
