@@ -18,14 +18,6 @@ print("First 5 values of line 1:", vectors[0][:5])
 # Cosine similarity: closer to 1 = more similar meaning
 def cosine(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-
-
-
-
-
-
-
-
 print("\nSimilarity scores:")
 
 print("Line 1 vs Line 2 (similar meaning):  ", round(cosine(vectors[0], vectors[1]), 3))
