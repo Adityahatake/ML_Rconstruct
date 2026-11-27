@@ -83,12 +83,14 @@ st.markdown(
             border-color: {mood['accent']} !important;
         }}
 
-        
+
     </style>
     <p class="mood-title">Mood Chat</p>
     <p class="mood-sub">{mood['emoji']} {mood['tagline']}</p>
     """,
     unsafe_allow_html=True,
+
+    
 )
 
 # ---------- Show conversation ----------
