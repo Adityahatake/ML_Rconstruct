@@ -61,7 +61,6 @@ mood_name = st.radio(
 
 mood = MOODS[mood_name]
 
-
     ``
 
 # ---------- Styling (accent follows the mood) ----------
@@ -83,6 +82,8 @@ st.markdown(
             background-color: {mood['accent']} !important;
             border-color: {mood['accent']} !important;
         }}
+
+        
     </style>
     <p class="mood-title">Mood Chat</p>
     <p class="mood-sub">{mood['emoji']} {mood['tagline']}</p>
